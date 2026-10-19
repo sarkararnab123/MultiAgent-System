@@ -609,46 +609,6 @@ This provides several advantages.
 
 ---
 
-# 🔮 Future Improvements
-
-ResearchMind can be extended significantly.
-
-Possible improvements include:
-
-- multiple-source webpage reading
-- source credibility scoring
-- citation generation
-- parallel research agents
-- structured report export to PDF
-- persistent research history
-- Streamlit or React frontend
-- database integration
-- vector database support
-- RAG-based document research
-- human approval before report generation
-- automatic retry and rate-limit handling
-- report revision based on critic feedback
-
-A particularly useful next improvement would be:
-
-```text
-Search
-   ↓
-Reader
-   ↓
-Writer
-   ↓
-Critic
-   ↓
-Revision Agent
-   ↓
-Final Improved Report
-```
-
-Currently, the Critic provides feedback. A revision stage could send that feedback back to the Writer so that the final report is automatically improved.
-
----
-
 # 📌 Example Use Cases
 
 ResearchMind can be useful for:
